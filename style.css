@@ -1,0 +1,36 @@
+:root{
+}
+
+body{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+    display: flex;
+}
+
+.formSection{
+    width: 100vw;
+}
+
+.creditSection{
+    display: flex;
+    position: relative;
+}
+
+#img{
+    height: 100vh;
+    width: auto;
+}
+
+#credit{
+    position: absolute;
+    color: wheat;
+    bottom: 10px;
+    left: 30%;
+}
+
+.creditLink{
+    color: wheat;
+}
