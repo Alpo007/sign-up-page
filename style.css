@@ -1,22 +1,38 @@
 :root{
+    
 }
 
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
 .container{
     display: flex;
 }
 
-.imageSection{
+.image-section{
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    justify-content: center;
     background-image: url(./images/damien-dufour-iSw2E6NbFAo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 40vw;
 }
 
-#img{
-    height: 100vh;
+:link{
+    color: wheat;
+}
+
+:link:hover{
+    color: rgb(249, 207, 129);
+}
+
+#credit{
+    align-self: flex-end;
+    margin-bottom: 2%;
+    color: wheat;
+    font-size: 1.1rem;
 }
